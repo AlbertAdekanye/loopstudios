@@ -3,9 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      sm: "640px",
+      sm: "480px",
       md: "768px",
-      lg: "1024px",
+      lg: "976px",
+      xl: "1440px",
     },
     extend: {
       colors: {
@@ -13,7 +14,8 @@ module.exports = {
         veryDarkGray: 'hsl(0, 0%, 41%)', // Add a comma here
       },
       fontFamily: {
-        body: ['"Poppins"', 'sans-serif', 'Josefin Sans', 'sans-serif'],
+        sans: ['Josefin Sans', 'sans-serif'],
+        alata: ['Alata'],
       },
     },
   },
